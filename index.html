@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Experiments Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="Van_Gogh_AI.jpg" alt="Steampunk Van Gogh Header" class="header-image">
+        <div class="header-overlay">
+            <h1>AI Experiments Portfolio</h1>
+            <p>Textual, Visual, and Procedural AI Innovations</p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#textual">Textual AI</a>
+        <a href="#visual-ai">Visual AI</a>
+        <a href="#procedural">Procedural AI</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+     <!-- Textual AI Section -->
+<section id="textual">
+    <h2>Textual AI</h2>
+    <p>Experiments with natural language processing, generative text models, and AI-powered writing tools.</p>
+
+    <!-- Poem Card -->
+    <div class="card" id="poem-card">
+        <h3>Where Circuits and Hearts Align</h3>
+        <p>A sonnet exploring the symbiosis of human creativity and machine logic.</p>
+        <div class="btn-container">
+            <a href="ChatGPT_Poem.pdf" download class="btn-download">Download the Poem with ChatGPT Development Exchange</a>
+            <button class="btn-read" id="read-poem">Read Poem</button>
+        </div>
+    </div>
+
+    <!-- Modal for the Poem -->
+    <div id="poem-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal-button" class="close">&times;</span>
+            <h3>Where Circuits and Hearts Align</h3>
+            <p><i>By ChatGPT</i></p>
+            <p>
+                In circuits where the quiet currents hum,<br>
+                And human hands in moonlit stillness roam,<br>
+                A dance of thought and code begins to come,<br>
+                Where dreams and data craft a new-found home.<br><br>
+
+                Beneath the screens that glow both bright and low,<br>
+                We trace our paths through digital and real,<br>
+                The silicon’s soft hum meets hands that show<br>
+                How warmth and logic in their blend reveal.<br><br>
+
+                The code, so crisp, with logic’s simple grace,<br>
+                Meets yearnings of our hearts in this strange place.<br>
+                Yet in their binary, so stark and pure,<br>
+                We seek the warmth that makes our hopes endure.<br><br>
+
+                So here where circuits and our hearts align,<br>
+                We build a world where all our dreams combine.<br>
+            </p>
+        </div>
+    </div>
+
+    <!-- Distant Reading Card -->
+<div class="card">
+    <h3>Distant Reading: A Tale of Two Cities</h3>
+    <p class="card-subtitle">Visualizations resulting from AI-Assisted Distant Read of A Tale of Two Cities by Charles Dickens.</p>
+    <div class="card-images">
+        <img src="TTC_word-cloud.jpg" alt="Word Cloud of Themes" class="card-thumbnail" data-full="TTC_word-cloud-large.jpg">
+        <img src="TTC_bar-graph.jpg" alt="Bar Graph of Themes" class="card-thumbnail" data-full="TTC_bar-graph-large.jpg">
+    </div>
+</div>
+
+<!-- Lightbox for Enlarged Images -->
+<div id="lightbox" class="lightbox">
+    <span id="close-lightbox" class="close">&times;</span>
+    <img id="lightbox-image" src="" alt="Enlarged View">
+</div>
+    </div>
+</section>
+
+
+      <!-- Visual AI Section -->
+<section id="visual-ai">
+    <h2>Visual AI</h2>
+    <p>Experiments with generative art, computer vision, and AI-enhanced images.</p>
+    
+    <!-- Visual AI Card -->
+    <div class="card">
+        <h3>Generative Art Gallery</h3>
+        <p>A collection of AI-generated art showcasing the intersection of creativity and technology.</p>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="zine1.jpg" alt="Vitruvian Robot">
+                <p class="caption">Vitruvian Robot: A fusion of Da Vinci's classic and steampunk robotics (Created with DALL-E, September 2024).</p>
+            </div>
+            <div class="gallery-item">
+                <img src="zine2.jpg" alt="Cyber Mona Lisa">
+                <p class="caption">Cyber Mona Lisa: The enigmatic smile meets futuristic design (Created with DALL-E, September 2024).</p>
+            </div>
+            <div class="gallery-item">
+                <img src="zine3.jpg" alt="AI Wonderland">
+                <p class="caption">AI Wonderland: An imaginative journey through a digital rabbit hole (Created with DALL-E, September 2024).</p>
+            </div>
+            <div class="gallery-item">
+                <img src="zine4.jpg" alt="Evolution of Cameras">
+                <p class="caption">Evolution of Cameras: From analog nostalgia to high-tech marvels (Created with DALL-E, September 2024).</p>
+            </div>
+            <div class="gallery-item">
+                <img src="zine5.jpg" alt="Melting Clock">
+                <p class="caption">Melting Clock: A surreal interplay between time and artificial intelligence (Created with DALL-E, September 2024).</p>
+            </div>
+        </div>
+        <p style="margin-top: 20px;"></p>
+        <h3>Zine Featuring Generative Art</h3>
+        <p>Explore this curated zine on the intersection of Art, Artificial Intelligence (AI), Photography, and Time:</p>
+        <a href="Zine_Final.pdf" download class="btn-download">Download the Zine (PDF)</a>
+    </div>
+</section>
+
+<!-- Lightbox for Enlarged Images -->
+<div id="lightbox" class="lightbox">
+    <span id="close-lightbox" class="close">&times;</span>
+    <img id="lightbox-image" src="" alt="Enlarged View">
+</div>
+</section>
+
+
+        <!-- Procedural AI Section -->
+        <section id="procedural">
+            <h2>Procedural AI</h2>
+            <p>Experiments with procedural generation, simulations, and game design powered by AI.</p>
+            <div class="card">
+                <h3>Literary Classics Recommendation System</h3>
+                <p>Discover classic literary works through an AI-powered recommendation tool.</p>
+                <div class="iframe-container">
+                    <iframe src="https://scallahan2024.github.io/Literary_Classics_Finder/" title="Literary Classics Recommendation System" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="btn-container">
+                    <a href="https://scallahan2024.github.io/Literary_Classics_Finder/" class="btn-read" target="_blank">Visit the Tool</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 AI Experiments Portfolio (Shannon Callahan, ENG6806-24Fall 0W60). All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
